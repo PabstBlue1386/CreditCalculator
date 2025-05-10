@@ -6,7 +6,7 @@ func monthlyRate(yearRate float64) float64 {
 	return yearRate / 12 / 100
 }
 
-func calculateAnnuitypayment(term int, rate float64, sumCredit float64) float64 {
+func CalculateAnnuityPayment(term int, rate float64, sumCredit float64) float64 {
 
 	monthlyRate := monthlyRate(rate)
 
